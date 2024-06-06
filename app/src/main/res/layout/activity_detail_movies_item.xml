@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailMoviesItem">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/detail_title_movie"
+            android:layout_width="wrap_content"
+            android:maxWidth="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/bree_serif"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/movie_title"
+            android:textColor="#FFF7F1"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="207dp"
+            android:layout_height="304dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintVertical_bias="0"
+            android:scaleType="centerCrop"
+            android:src="@drawable/the_garfield_movie"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_title_movie" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.01"
+            app:flow_verticalBias="0">
+
+            <TextView
+                android:id="@+id/star"
+                style="@style/detail_item.small"
+                android:background="@drawable/detail_rounded"
+                android:drawableStart="@drawable/star"
+                android:text="4.5" />
+
+            <TextView
+                android:id="@+id/genre"
+                style="@style/detail_item.small"
+                android:background="@drawable/detail_rounded"
+                android:text="Action"
+                app:drawableLeftCompat="@drawable/movie" />
+
+            <TextView
+                android:id="@+id/duration"
+                style="@style/detail_item.small"
+                android:background="@drawable/detail_rounded"
+                android:text="2h 43m"
+                app:drawableLeftCompat="@drawable/timer" />
+            <Button
+                android:id="@+id/action_share"
+                style="@style/detail_item.small"
+                android:drawableLeft="@drawable/share"
+                android:text="@string/share"
+                android:background="@drawable/detail_rounded"
+                android:backgroundTint="@color/black"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/detail_item"
+            style="@style/detail_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/detail_rounded"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="20dp"
+            android:text="@string/sample_desc"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

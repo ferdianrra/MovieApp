@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="movie_description">Deskripsi Film</string>
+    <string name="movie_title">Judul Film</string>
+    <string name="sample_desc">
+        Pixels is a 2015 science fiction comedy film directed by Chris Columbus, written by Tim Herlihy and Timothy Dowling, and produced by Columbus, Adam Sandler, Allen Covert, and Mark Radcliffe. Based on the 2010 short film of the same name by Patrick Jean, the film stars Adam Sandler in the lead role, Kevin James, Michelle Monaghan, Peter Dinklage, Josh Gad, and Brian Cox. Combining animated video game characters and visual effects, the film follows an alien race misinterpreting video feeds of classic arcade games as a declaration of war, in which they respond by invading Earth using technology inspired by the same games. To counter the invasion, the United States assembles a team of former arcade champions to lead the planet\'s defense.
+        Development on the film began in 2010 with Chris Columbus signing on to direct in 2013. Licensing for arcade game characters that appear in the film were obtained the following year. Filming began in Toronto on May 28, 2014, and was completed in three months. In post-production, visual effect techniques employed the use of voxels, a three-dimensional cube in 3D computer graphics, to replicate the low-resolution pixels of older arcade games on screen.
+        Pixels was theatrically released in the United States on July 24, 2015, by Columbia Pictures.
+       </string>
+    <string-array name="movie_name">
+        <item>Ferrari</item>
+        <item>Guardians Of The Galaxy</item>
+        <item>Home</item>
+        <item>Imaginary</item>
+        <item>Interstellar</item>
+        <item>Pixels</item>
+        <item>Spiderman Homecoming</item>
+        <item>The Garfield Movie</item>
+        <item>The Greatest Showman</item>
+        <item>Wall •E</item>
+    </string-array>
+
+    <string-array name="movie_genre">
+        <item>Biography</item>
+        <item>Adventure</item>
+        <item>Comedy</item>
+        <item>Thriller</item>
+        <item>Sci-Fi</item>
+        <item>Fantasy</item>
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Musical</item>
+        <item>Family</item>
+    </string-array>
+
+    <string-array name="movie_rating">
+        <item>6.5</item>
+        <item>8.0</item>
+        <item>6.5</item>
+        <item>4.0</item>
+        <item>8.7</item>
+        <item>5.6</item>
+        <item>7.4</item>
+        <item>4.0</item>
+        <item>7.5</item>
+        <item>8.4</item>
+    </string-array>
+
+    <string-array name="movie_duration">
+        <item>2h 10m</item>
+        <item>2h 1m</item>
+        <item>1h 34m</item>
+        <item>1h 44m</item>
+        <item>2h 49m</item>
+        <item>1h 45m</item>
+        <item>2h 13m</item>
+        <item>2h 15m</item>
+        <item>1h 45m</item>
+        <item>1h 38m</item>
+    </string-array>
+
+    <integer-array name="movie_cover">
+        <item>@drawable/ferrari</item>
+        <item>@drawable/guardian_of_the_galaxy</item>
+        <item>@drawable/home</item>
+        <item>@drawable/imaginary</item>
+        <item>@drawable/interstellar</item>
+        <item>@drawable/pixels</item>
+        <item>@drawable/spiderman_homecoming</item>
+        <item>@drawable/the_garfield_movie</item>
+        <item>@drawable/the_greatest_showman</item>
+        <item>@drawable/walle</item>
+    </integer-array>
+
+    <string-array name="movie_desc">
+        <item>Ferrari is a 2023 American biographical sports drama film directed by Michael Mann and written by Troy Kennedy Martin.
+            Based on the 1991 biography Enzo Ferrari: The Man, the Cars, the Races, the Machine by motorsport journalist Brock Yates, the film follows the personal and professional struggles of Enzo Ferrari, the Italian founder of the car manufacturer Ferrari, during the summer of 1957 as Scuderia Ferrari prepares to compete in the 1957 Mille Miglia.
+            Adam Driver portrays the titular subject, and Penélope Cruz, Shailene Woodley, Sarah Gadon, Gabriel Leone, Jack O\'Connell, and Patrick Dempsey co-star.
+            Ferrari was selected to compete for the Golden Lion at the 80th Venice International Film Festival, premiering on August 31, 2023. The film was originally set to premiere on the streaming service Showtime,[8] but it was eventually released in the United States theatrically on December 25, 2023, by Neon. The film has grossed $41 million worldwide and received generally positive reviews from critics.
+            It was named one of the top 10 films of 2023 by the National Board of Review.
+        </item>
+
+        <item>Guardians of the Galaxy (retroactively referred to as Guardians of the Galaxy Vol.
+            is a 2014 American superhero film based on the Marvel Comics superhero team of the same name.
+            Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 10th film in the Marvel Cinematic Universe (MCU).
+            Directed by James Gunn, who wrote the screenplay with Nicole Perlman, it features an ensemble cast including Chris Pratt, Zoe Saldaña, Dave Bautista, Vin Diesel, and Bradley Cooper as the titular Guardians, along with Lee Pace, Michael Rooker, Karen Gillan, Djimon Hounsou, John C.
+            Reilly, Glenn Close, and Benicio del Toro.
+            In the film, Peter Quill and a group of extraterrestrial criminals go on the run after stealing a powerful artifact.
+            Perlman began working on the screenplay in 2009.
+            Producer Kevin Feige first publicly mentioned Guardians of the Galaxy as a potential film in 2010 and Marvel Studios announced it was in active development at the July 2012 San Diego Comic-Con.
+            Gunn was hired to write and direct the film that September.
+            In February 2013, Pratt was hired to play Peter Quill / Star-Lord, and the supporting cast members were subsequently confirmed.
+            Principal photography began in July 2013 at Shepperton Studios in England, with filming continuing in London before wrapping in October 2013.
+            In addition to an original score by Tyler Bates, the soundtrack includes several popular songs from the 1960s and 1970s chosen by Gunn.
+            Post-production was completed on July 7, 2014.</item>
+
+        <item>Home is a 2015 American animated science fiction comedy film produced by DreamWorks Animation and distributed by 20th Century Fox.
+            Loosely based on Adam Rex\'s 2007 children\'s book The True Meaning of Smekday, the film was directed by Tim Johnson from a screenplay by Tom J.
+            Astle and Matt Ember, and stars the voices of Jim Parsons, Rihanna, Steve Martin, Jennifer Lopez, and Matt Jones.
+            The story follows the shared adventures of a friendly alien who is shunned by the rest of his kind, and a teenage girl searching for her mother after they are separated during an invasion of Earth.
+            The film premiered at the Boulder International Film Festival on March 7, 2015, and was released in theaters on March 27, 2015.[5] Home was promoted with the release of a four-minute short film titled Almost Home, which was shown in theaters before DreamWorks Animation\'s Mr. Peabody and Sherman and Blue Sky Studios\' Rio 2 in 2014. Rihanna created a concept album of the same name. The soundtrack also includes guest vocals from Jennifer Lopez, among others, and was supported by two singles, "Towards the Sun" and "Feel the Light". Home received mixed reviews from critics and grossed $386 million worldwide.
+            A traditionally animated Netflix original series was released on July 29, 2016, with the elements of its plot taking place after the events of the film. With the exception of Matt Jones, none of the original cast reprised their roles for the series.
+        </item>
+
+        <item>Imaginary is an upcoming American supernatural horror film directed and produced by Jeff Wadlow and written by Wadlow, Greg Erb and Jason Oremland. The film stars DeWanda Wise, Tom Payne, Taegen Burns, Pyper Braun, Veronica Falcon and Betty Buckley.
+            Produced by Jason Blum through his Blumhouse Productions banner and Tower of Babble, it is scheduled to be released by Lionsgate on March 8, 2024.
+            When Jessica returns to her childhood home with her family, she finds her old stuffed bear, Chauncey, and sees that her youngest stepdaughter Alice has grown attached to it.
+            After Alice\'s behavior becomes concerning, and the games that she and Chauncey play turn increasingly sinister, Jessica starts realizing that Chauncey is much more than the stuffed bear she believed him to be for all those years.
+        </item>
+
+        <item>Interstellar is a 2014 epic science fiction film co-written, directed, and produced by Christopher Nolan. It stars Matthew McConaughey, Anne Hathaway, Jessica Chastain, Bill Irwin, Ellen Burstyn, Michael Caine, and Matt Damon. Set in a dystopian future where humanity is embroiled in a catastrophic blight and famine, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for humankind.
+            Brothers Christopher and Jonathan Nolan wrote the screenplay, which had its origins in a script Jonathan developed in 2007 and was originally set to be directed by Steven Spielberg. Kip Thorne, a Caltech theoretical physicist and 2017 Nobel laureate in Physics,[4] was an executive producer, acted as a scientific consultant, and wrote a tie-in book, The Science of Interstellar. Cinematographer Hoyte van Hoytema shot it on 35 mm movie film in the Panavision anamorphic format and IMAX 70 mm. Principal photography began in late 2013 and took place in Alberta, Iceland, and Los Angeles. Interstellar uses extensive practical and miniature effects, and the company Double Negative created additional digital effects.
+            Interstellar premiered in Los Angeles on October 26, 2014. In the United States, it was first released on film stock, expanding to venues using digital projectors. The film received positive reviews from critics and grossed over $681 million worldwide ($703 million after subsequent re-releases), making it the tenth-highest-grossing film of 2014. It has been praised by astronomers for its scientific accuracy and portrayal of theoretical astrophysics.[5][6][7] Interstellar was nominated for five awards at the 87th Academy Awards, winning Best Visual Effects, and received numerous other accolades.
+        </item>
+
+        <item>Pixels is a 2015 science fiction comedy film directed by Chris Columbus, written by Tim Herlihy and Timothy Dowling, and produced by Columbus, Adam Sandler, Allen Covert, and Mark Radcliffe. Based on the 2010 short film of the same name by Patrick Jean, the film stars Adam Sandler in the lead role, Kevin James, Michelle Monaghan, Peter Dinklage, Josh Gad, and Brian Cox. Combining animated video game characters and visual effects, the film follows an alien race misinterpreting video feeds of classic arcade games as a declaration of war, in which they respond by invading Earth using technology inspired by the same games. To counter the invasion, the United States assembles a team of former arcade champions to lead the planet\'s defense.
+            Development on the film began in 2010 with Chris Columbus signing on to direct in 2013. Licensing for arcade game characters that appear in the film were obtained the following year. Filming began in Toronto on May 28, 2014, and was completed in three months. In post-production, visual effect techniques employed the use of voxels, a three-dimensional cube in 3D computer graphics, to replicate the low-resolution pixels of older arcade games on screen.
+            Pixels was theatrically released in the United States on July 24, 2015, by Columbia Pictures. The film received generally negative reviews and grossed $244 million worldwide against a production budget of $88–129 million. It was considered a box-office bomb for losing an estimated $75 million.
+        </item>
+
+        <item>Spider-Man: Homecoming is a 2017 American superhero film based on the Marvel Comics character Spider-Man, co-produced by Columbia Pictures and Marvel Studios, and distributed by Sony Pictures Releasing. It is the second Spider-Man film reboot and the 16th film in the Marvel Cinematic Universe (MCU). The film was directed by Jon Watts from a screenplay by the writing teams of Jonathan Goldstein and John Francis Daley, Watts and Christopher Ford, and Chris McKenna and Erik Sommers. Tom Holland stars as Peter Parker / Spider-Man, alongside Michael Keaton, Jon Favreau, Gwyneth Paltrow, Zendaya, Donald Glover, Jacob Batalon, Laura Harrier, Tony Revolori, Bokeem Woodbine, Tyne Daly, Marisa Tomei, and Robert Downey Jr. In the film, Peter Parker tries to balance high school life with being Spider-Man while facing the Vulture (Keaton).
+            In February 2015, Marvel Studios and Sony reached a deal to share the film rights for Spider-Man, integrating the character into the established MCU. The following June, Holland was cast as the title character, and Watts was hired to direct. This was followed shortly by the hiring of Daley and Goldstein. In April 2016, the film\'s title was revealed, along with additional cast, including Downey in his MCU role of Tony Stark / Iron Man. Principal photography began in June 2016 at Pinewood Atlanta Studios in Fayette County, Georgia, and continued in Atlanta, Los Angeles, and New York City. The other screenwriters were revealed during filming, which concluded in Berlin in October 2016. The production team made efforts to differentiate the film from previous Spider-Man films.
+        </item>
+
+        <item>Garfield, an overweight, lethargic and free-spirited orange cat, lives with his owner Jon Arbuckle. Garfield passes his time by tormenting Jon and outwitting his vicious Dobermann neighbor, Luca. Aside from Jon, Garfield maintains an unlikely friendship with a mouse, Louis, by constantly sparing him, and also socializes with his fellow neighborhood cats, Nermal and Arlene.
+            Jon has begun habitually bringing Garfield to the veterinarian, in order to see vet Dr. Liz Wilson, whom he is in love with. Jon tries to ask Liz out, but due to a misunderstanding, Jon is given custody of a dog named Odie, who is sociable, friendly and hyperactive. Garfield, however, takes an instant dislike to Odie and competes for Jon\'s attention. Odie is brought to a canine talent show, where Liz is a judge. Garfield gets chased by the other dogs, which prompts Odie to the center of the ring, where he does a successful improvised dance to the Black Eyed Peas\' "Hey Mama". A local television host named Happy Chapman, who is also a judge, is impressed with Odie\'s performance, and offers Jon a television deal for Odie, but Jon declines.
+            When Garfield returns home, fed up with Odie\'s presence in his life, he hits a ball, causing a chain reaction that leaves the house in disarray. When Jon discovers this, he forces Garfield to sleep outside for the night. When Odie comes out to comfort Garfield, he gets inside and locks Odie out. Nermal and Arlene witness this as Odie runs away but is then picked up by an elderly woman named Mrs. Baker. Jon and Liz search for Odie while Garfield\'s friends express their disappointment with him regarding his treatment of Odie.
+        </item>
+
+        <item>The Greatest Showman is a 2017 American fictionalized biographical musical drama film directed by Michael Gracey (in his directorial debut) from a screenplay written by Jenny Bicks and Bill Condon, and a story by Bicks. The film stars an ensemble cast led by Hugh Jackman, Zac Efron, Michelle Williams, Rebecca Ferguson, and Zendaya. Featuring nine original songs by Benj Pasek and Justin Paul and a score composed by John Debney and Joseph Trapanese, the film is a fictional depiction of the life of P. T. Barnum, a showman and entertainer, and his creation of the Barnum &amp; Bailey Circus and the lives of its star attractions.
+            Principal photography began in New York City in November 2016. The film premiered on December 8, 2017, aboard RMS Queen Mary 2. It was released in the United States on December 20, 2017, by 20th Century Fox, seven months after Ringling Bros. and Barnum &amp; Bailey Circus ceased operations. The film grossed $435 million worldwide, making it the fifth-highest-grossing live-action musical film of all time.
+            The film was praised for the performances, music, visuals, and production values, but was criticised for its artistic license. It has, however, developed a cult following through its message of empowerment and sense of escapism, in part thanks to the success of its soundtrack. It received nominations for Best Motion Picture – Musical or Comedy and Best Actor – Musical or Comedy for Jackman at the 75th Golden Globe Awards. The film won the Golden Globe Award for Best Original Song for the song "This Is Me", which was also nominated for Best Original Song at the 90th Academy Awards and won the Best Compilation Soundtrack for Visual Media at the 61st Annual Grammy Awards.
+        </item>
+
+        <item>WALL-E (stylized with an interpunct as WALL·E) is a 2008 American animated science fiction film[5] produced by Pixar Animation Studios for Walt Disney Pictures. The film was directed by Andrew Stanton, produced by Jim Morris, and written by Stanton and Jim Reardon. It stars the voices of Ben Burtt, Elissa Knight, Jeff Garlin, John Ratzenberger, Kathy Najimy, with Sigourney Weaver and Fred Willard. The film follows a solitary robot named WALL-E on a future, uninhabitable, deserted Earth in 2805, left to clean up garbage. He is visited by a robot called EVE sent from the starship Axiom, with whom he falls in love and pursues across the galaxy.
+            After directing Finding Nemo, Stanton felt Pixar had created believable simulations of underwater physics and was willing to direct a film set largely in space. WALL-E has minimal dialogue in its early sequences; many of the characters in the film do not have voices, but instead communicate with body language and robotic sounds that were designed by Burtt. The film incorporates various topics including consumerism, corporatocracy, nostalgia, waste management, human environmental impact and concerns, obesity/sedentary lifestyles, and global catastrophic risk. It is also Pixar\'s first animated film with segments featuring live-action characters. Thomas Newman composed the film\'s musical score. The film cost $180 million to produce, a record-breaking sum for an animated film at the time. Following Pixar tradition, WALL-E was paired with a short film titled Presto for its theatrical release.
+        </item>
+
+    </string-array>
+    <string name="title_activity_about_me">AboutMe</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="profile_desc">Ferdiansyah Annora is a third-year student at Gunadarma University, focusing on front-end development and Android app development. \n
+        I have proficiency in HTML, CSS, and JavaScript, and I am skilled in C++ for competitive programming. \n\n
+        My primary interest lies in creating user-friendly interfaces for websites.
+        I have been actively contributing to Android projects, prioritizing the creation of smooth user experiences</string>
+    <string name="share">Share</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.MovieList" parent="Theme.Material3.DayNight">
+
+        <item name="colorPrimary">#4C5461</item>
+        <item name="titleTextColor">#FFF7F1</item>
+        <item name="android:windowBackground">@color/dark_blue</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/play_splash</item>
+
+    </style>
+
+
+</resources>

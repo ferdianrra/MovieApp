@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profilePages">
+
+    <LinearLayout
+        android:id="@+id/maincontainer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingBottom="40dp"
+        android:paddingTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/bree_serif"
+            android:text="About Me"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cardPersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/detail_rounded">
+
+            <ImageView
+                android:id="@+id/personal"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/personal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                android:elevation="2dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+            <LinearLayout
+                android:id="@+id/TitleDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:background="@drawable/title_rounded"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toStartOf="@+id/personal"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0">
+
+                <TextView
+                    android:id="@+id/name"
+                    style="@style/detail_item"
+                    android:paddingStart="10dp"
+                    android:text="Ferdiansyah Annora"
+                    android:textSize="17sp" />
+
+                <TextView
+
+                    android:id="@+id/textView2"
+                    style="@style/detail_item.about"
+                    android:text="Mobile Developer"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/socialmedia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TitleDesc"
+                app:layout_constraintVertical_bias="0.631"
+                tools:layout_editor_absoluteX="0dp">
+
+                <TextView
+                    android:id="@+id/email"
+                    style="@style/detail_item.about"
+                    android:drawableStart="@drawable/email_white_24dp"
+                    android:text="ferdiansyah.annora@gmail.com"
+                    android:textAlignment="textStart" />
+
+                <TextView
+                    android:id="@+id/github"
+                    style="@style/detail_item.about"
+                    android:drawableStart="@drawable/github"
+                    android:text="ferdianrra" />
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/detail_item"
+            android:background="@drawable/detail_rounded"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="50dp"
+            android:padding="20dp"
+            android:textSize="16sp"
+            android:text="@string/profile_desc"/>
+    </LinearLayout>
+
+
+
+</ScrollView>

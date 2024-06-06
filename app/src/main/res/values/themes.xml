@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MovieList" parent="Theme.Material3.DayNight">
+
+       <item name="colorPrimary">#4C5461</item>
+        <item name="titleTextColor">#FFF7F1</item>
+        <item name="android:windowBackground">@color/dark_blue</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/play_splash</item>
+
+    </style>
+    
+
+    <style name="detail_item">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/bree_serif</item>
+        <item name="android:textColor">#FFF7F1</item>
+    </style>
+
+    <style name="detail_item.small">
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:drawablePadding">6dp</item>
+        <item name="android:layout_marginEnd">7dp</item>
+
+    </style>
+
+    <style name="detail_item.about">
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:drawablePadding">4dp</item>
+    </style>
+
+    <style name="Theme.MovieList" parent="Base.Theme.MovieList" />
+</resources>
